@@ -5038,7 +5038,7 @@ h6.box-info-title,
 .page-footer-extended {
 	position: relative;
 	overflow: hidden;
-	padding: 70px 0 30px;
+	padding: 10px 0 10px;
 }
 
 .page-footer-extended * + h6 {
@@ -12703,8 +12703,8 @@ textarea.form-input.form-input-lg {
 
 @media (min-width: 768px) {
 	.section-md {
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding-bottom: 30px;
+		padding-top: 30px;
 	}
 	
 	.section-lg,
@@ -12750,7 +12750,7 @@ textarea.form-input.form-input-lg {
 		padding-bottom: 80px;
 	}
 	.breadcrumbs-custom-wrap + .section-lg, .breadcrumbs-custom-wrap + .section-custom {
-		padding-top: 100px;
+		padding-top: 50px;
 	}
 	.section-xl {
 		padding-top: 130px;
@@ -14540,15 +14540,44 @@ h3 + .divider + h5 + p {
 	max-width: 480px;
 }
 
+@media (min-width: 576px) {
+	#cooperation-btn{
+		margin-top:20px;
+	}
+	.shell h3{
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 767.98px){
+	#cooperation-btn{
+		margin-top:20px;
+	}
+	#copyright{
+		margin-top:-50px;
+	}
+}
+
 @media (min-width: 768px) {
 	.shell,
 	.shell-wide {
 		max-width: 750px;
 	}
+	.shell h3{
+		padding-top: 50px;
+	}
 }
 
 @media (min-width: 992px) {
-	.shell,
+	.shell{
+		max-width: 970px;
+	}
+	.shell h3{
+		padding-top: 50px;
+	}
+	.shell .box-cta-title{
+		padding:0;
+	}
 	.shell-wide {
 		max-width: 970px;
 	}
@@ -22694,7 +22723,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	top: 0;
 	right: 0;
 	padding: 4px;
-	height: 56px;
+	height: 65px;
 	color: #29293a;
 	z-index: 999;
 }
@@ -22707,7 +22736,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	bottom: 0;
 	right: 0;
 	box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.25);
-	background: #ffffff;
+	background: #003466 !important;
 }
 
 .rd-navbar-fixed .rd-navbar-panel > * {
@@ -22902,7 +22931,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-fixed .rd-navbar-nav li.opened > a {
-	background: #981df0;
+	background: #f8ec12;
 	color: #ffffff;
 }
 
@@ -25469,7 +25498,7 @@ html.tablet .ui-to-top {
 
 @media (min-width: 992px) {
 	.swiper-main .breadcrumbs-custom-title {
-		font-size: 116px;
+		font-size: 100px;
 		line-height: 1.3;
 	}
 	.swiper-main .swiper-pagination-wrap {
