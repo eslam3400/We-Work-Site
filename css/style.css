@@ -973,11 +973,34 @@ section {
     opacity: 0;
   }
 }
-
-.cp-preloader__letter{
-  font-size: 6rem;
-  letter-spacing: 1rem;
+@media (min-width: 576px) {
+	.cp-preloader__letter{
+		font-size: 2rem;
+		letter-spacing: 1rem;
+	}
 }
+
+@media (min-width: 768px) {
+	.cp-preloader__letter{
+		font-size: 3.5rem;
+		letter-spacing: 1rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.cp-preloader__letter{
+		font-size: 5rem;
+		letter-spacing: 1rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.cp-preloader__letter{
+		font-size: 6rem;
+		letter-spacing: 1rem;
+	}
+}
+
 
 .cp-preloader__letter:before{
   color: #fff;
@@ -14540,6 +14563,10 @@ h3 + .divider + h5 + p {
 	max-width: 480px;
 }
 
+.shell h3{
+	padding-top: 50px;
+}
+
 @media (min-width: 576px) {
 	#cooperation-btn{
 		margin-top:20px;
@@ -25479,7 +25506,7 @@ html.tablet .ui-to-top {
 		width: 100vw;
 	}
 	.swiper-main .breadcrumbs-custom-title {
-		font-size: 86px;
+		font-size: 78px;
 	}
 	.swiper-main .breadcrumbs-custom-subtitle {
 		font-size: 18px;
